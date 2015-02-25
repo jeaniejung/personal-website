@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif; }
+
+
+.hero #random div{
+	text-align:center;
+	background:#bcbcbc;
+}
+.quote{
+	color:white;
+	text-align:center;
+	font-family: 'Niconne', cursive;
+	font-size:26px;
+	margin-top:10%;
+	margin-bottom:14px;
+}
+.author{
+	color:white;
+	text-align:center;
+	font-style:italic;
+	font-size:13px;
+}
+
+
+.hero {
+  width: 100%;
+  height: 15%;		/*height of the entire scroll*/
+  min-height: 245px;
+  position: relative; }
+  .hero .container {
+    position: absolute;
+    left: 50%;
+    top: 62%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 60%;
+    z-index: 999; }
+  .hero .tagline {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    letter-spacing: -3px;
+   /* width: 40%;*/
+   text-align:center;
+/*    padding: 8% 0 0 0;
+*//*    float: left;
+*/    color: #555; }
+    .hero .tagline p {
+      font-size: 1.8rem;
+      line-height: 3rem;
+      margin-top: -105px; }
+      @media (max-width: 1900px) {
+        .hero .tagline p {
+          font-size: 1.5rem;		/*font-size of 'Favorite Quotes'*/
+          line-height: 2rem;
+          letter-spacing: -2px; } }
+      @media (max-width: 600px) {
+        .hero .tagline p {
+          font-size: 1.1rem; } }
+    @media (max-width: 1900px) {
+      .hero .tagline {
+        padding: 9% 0 0 0; } }
+    @media (max-width: 800px) {
+      .hero .tagline {
+        float: none;
+        width: 100%;
+        margin-bottom: 70px; } }
+  .hero .downloads {
+    float: right;
+    width: 40%;
+    color: white;
+    font-family: "Helvetica Neue", "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 1.5rem;
+    height: 100%;
+    position: relative; }
+    .hero .downloads .btn-container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 100%; }
+      .hero .downloads .btn-container .btn {
+        float: right;
+        text-align: center;
+        margin-left: 20px; }
+        @media (max-width: 800px) {
+          .hero .downloads .btn-container .btn {
+            float: left;
+            margin: 20px 20px 0 0; } }
+    @media (max-width: 800px) {
+      .hero .downloads {
+        float: none;
+        width: 100%;
+        height: auto; } }
+
